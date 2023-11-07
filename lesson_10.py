@@ -65,17 +65,17 @@
 # print(data)
 
 
-# def reading_text_file_readlines(file: str) -> list:
-#     with open(file, 'r') as f:
-#         data = f.readlines()
-#     return data
-#
-#
-# def writelines_text_file(file: str, data: list):
-#     with open(file, 'w') as my_file:
-#         my_file.writelines(data)
-#
-#
+def reading_text_file_readlines(file: str) -> list:
+    with open(file, 'r') as f:
+        data = f.readlines()
+    return data
+
+
+def writelines_text_file(file: str, data: list):
+    with open(file, 'w') as my_file:
+        my_file.writelines(data)
+
+
 #
 # data = reading_text_file_readlines(filename)
 # print(data)
