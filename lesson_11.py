@@ -12,22 +12,22 @@ import os
 
 ######### os ##############
 
-# filedir = "homework"
-# some_dir = ""
-# filename = "lesson_4"
+filedir = "homework"
+some_dir = ""
+filename = "lesson_4"
+
+files_list = os.listdir(filedir)
+print(files_list)
+for file in files_list:
+    # if os.path.isdir(file):
+    if os.path.isfile(file):
+        print(file)
 #
-# files_list = os.listdir()
-# print(files_list)
-# for file in files_list:
-#     if os.path.isdir(file):
-#     # if os.path.isfile(file):
-#         print(file)
-# #
-# # data = reading_text_file_readlines("homework/lesson_4")
-# # data = reading_text_file_readlines(f"{filedir}/{some_dir}/{filename}")
+# data = reading_text_file_readlines("homework/lesson_4")
+# data = reading_text_file_readlines(f"{filedir}/{some_dir}/{filename}")
 # data = reading_text_file_readlines(os.path.join(filedir, some_dir, filename))
-#
-#
+
+
 # print(data)
 
 
@@ -128,13 +128,25 @@ import os
 # e_mail = create_email(domains, names)
 # print(e_mail)
 
-some_dict = [
-    {
-        "name": "Nick",
-        "subject": "History",
-    },
-    {
-        "name": "Nick2",
-        "subject": "History2",
-    }
-]
+# some_dict = [
+#     {
+#         "name": "Nick",
+#         "subject": "History",
+#     },
+#     {
+#         "name": "Nick2",
+#         "subject": "History2",
+#     }
+# ]
+
+# def create_files_list(dirname: str) -> list:
+#     some_list = []
+#     files_list = os.listdir(dirname)
+#     for file in files_list:
+#         os.path.join(some_dir, some_dir_1, some_dir_2, filename)
+#         print(os.path.isdir(file))
+#         if not os.path.isdir(file):
+#             some_list.append(file)
+#         # files_list.remove(file)
+#
+#     return some_list

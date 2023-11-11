@@ -1,7 +1,7 @@
 [
   {
-  "key": "value",
-  "key1": "value",
+  "key": 1,
+  "key1": 2,
   "key2": "value",
   "key3": "value"
   },
